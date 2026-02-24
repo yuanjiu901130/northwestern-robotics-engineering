@@ -1,45 +1,55 @@
-# Robotics Engineering Learning Repository
+# Modern Robotics Engineering Repository
 
 ## Purpose
-This repository documents my transition from theoretical control research to system-level robotics engineering. Rather than treating robotics courses as isolated academic exercises, the goal is to progressively translate structured coursework into clean, extensible engineering modules.
 
-The primary focus is not course completion, but the development of practical modeling, simulation, and system integration skills.
+This repository documents my structured transition from theoretical control research to system-level robotics engineering through the *Modern Robotics* curriculum offered by Northwestern University.
+
+Rather than passively completing coursework, the goal is to rebuild robotics fundamentals in a mathematically consistent and implementation-ready form, with a strong emphasis on geometric representation (SE(3)), kinematics, planning, and control integration.
 
 ---
 
 ## Background
-I come from a control theory background with experience in nonlinear systems, stability analysis, and delayed/quantized feedback systems. While my theoretical foundation is strong, my current objective is to strengthen my system-building ability in robotics, including:
 
-- Physical modeling of robotic platforms
-- Control implementation in simulation environments
-- Modular code organization
-- Transition from mathematical formulation to executable systems
+My academic background is in nonlinear control theory, stability analysis, and delayed/quantized feedback systems. While I have previously encountered Lie groups, rigid body motion, and geometric control concepts, my understanding requires systematic reconstruction within a robotics context.
 
-This repository serves as a structured environment for that transition.
+This repository serves as a structured environment to:
+
+- Rebuild rigid body motion representation using SE(3)
+- Strengthen intuition around twists and exponential coordinates
+- Connect kinematic formulations to executable computational modules
+- Transition from abstract mathematical structure to implementable robotic systems
 
 ---
 
-## Learning Strategy
-The learning approach follows three principles:
+## Learning Philosophy
 
-1. **Course-first, engineering-second**  
-   Core concepts will be studied through formal coursework (UPenn Robotics Specialization), then independently reimplemented and extended.
+The approach follows three principles:
 
-2. **Modular system design**  
-   Each topic (e.g., quadrotor dynamics, motion planning, mobility) will be implemented in a clean, extensible structure rather than as single-file scripts.
+1. **Reconstruction over repetition**  
+   Previously learned concepts (e.g., Lie algebra, exponential maps) will be revisited and reconstructed from first principles within the robotics framework.
 
-3. **Incremental refinement**  
-   Implementations will begin with simplified models and progressively evolve toward more realistic, higher-dimensional systems.
+2. **Mathematical clarity before implementation**  
+   Each major concept (rigid transformations, twists, Jacobians) will first be formalized and internalized before being translated into code.
+
+3. **Modular engineering structure**  
+   Implementations will evolve gradually into clean, extensible modules rather than isolated scripts.
 
 ---
 
 ## Current Focus
-- Program: UPenn Robotics Specialization (Coursera)
-- Current course: Robotics: Aerial Robotics
 
-The initial phase will focus on understanding quadrotor dynamics and building a minimal simulation framework that can later support advanced control strategies (e.g., trajectory tracking, disturbance rejection, MPC).
+Course: Modern Robotics – Foundations of Robot Motion  
+Institution: Northwestern University  
+
+Primary objectives:
+
+- Master rigid body motion in SE(3)
+- Understand twists as elements of se(3)
+- Develop fluency with matrix exponentials in motion representation
+- Build intuition for screw theory and coordinate transformations
 
 ---
 
 ## Long-Term Objective
-Bridge rigorous control theory with practical robotics engineering, eventually contributing to autonomous systems where modeling, planning, and control integrate seamlessly.
+
+Bridge rigorous control theory with geometric robotics foundations, ultimately enabling the design and implementation of autonomous robotic systems that integrate modeling, planning, and control in a mathematically coherent framework.
